@@ -21,6 +21,13 @@ This software is used to download block hashes for the Peercoin Android
 Application, and can also be used for other applications that require
 centralised block validation. This avoids requiring full PoS validation.
 
+If this software benefited you, you may leave a tip to any of these 
+addresses if you wish to do so.
+
+Bitcoin: 13khojyD71afhcFjVyUV8jc9Qkc6BhM3de  
+Peercoin: PBmzvVP3aYW42f8i9gNhHRhkdjKHAi86Yr  
+NuBits: BEVbmgfwaYz4q2okbsEfxEE36irP5N6bFk  
+
 Installation on a Server
 ------------------------
 
