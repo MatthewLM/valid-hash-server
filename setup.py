@@ -7,7 +7,7 @@ from setuptools import setup
 
 setup(
     name = 'valid-hash-server',
-    version = '1.0',
+    version = '1.1',
     author = 'Matthew Mitchell',
     packages = ['valid_hash_server'],
 )

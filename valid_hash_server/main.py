@@ -81,7 +81,7 @@ class Application():
 
             if env['REQUEST_METHOD'] == "OPTIONS":
                 # Preflight requests need to be implemented for Ajax queries
-                headers.append(('Access-Control-Allow-Headers', 'Content-Type, Accept, Accept-Encoding, Content-Length, Host, Origin, User-Agent, Referer'))
+                allow_headers.append(('Access-Control-Allow-Headers', 'Content-Type, Accept, Accept-Encoding, Content-Length, Host, Origin, User-Agent, Referer'))
                 start_response(HTTP_OK, allow_headers)
                 return [b""]
             elif env['REQUEST_METHOD'] == "GET":
